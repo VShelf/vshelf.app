@@ -1,4 +1,4 @@
-Sitemap: https://beta.vshelf.app/sitemap.xml
+Sitemap: https://vshelf.app/sitemap.xml
 
 User-agent: *
 
