@@ -1,4 +1,4 @@
-Sitemap: https://vshelf.app/sitemap.xml
+Sitemap: https://beta.vshelf.app/sitemap.xml
 
 User-agent: *
 
@@ -12,6 +12,11 @@ Allow: /baixar
 
 Allow: /discord
 Allow: /dc
+
+Allow: /login
+Allow: /entrar
+Allow: /register
+Allow: /registro
 
 Allow: /titulo/adicionar
 Allow: /titulo/add
