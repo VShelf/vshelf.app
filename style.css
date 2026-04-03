@@ -1,0 +1,33 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #121212;
+}
+
+#window {
+    width: 400px;
+    margin: 50px auto;
+    background: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+#window h1 {
+    color: #e0e0e0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#window h2 {
+    color: #e0e0e0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#window p {
+    color: #e0e0e0;
+    margin-bottom: 20px;
+    text-align: center;
+}

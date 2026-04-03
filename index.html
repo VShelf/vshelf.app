@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="VShelf" />
+    <meta property="og:type" content="website" />
+    <title>VShelf - Seu aplicativo de gerenciamento de títulos</title>
+    <meta name="description" content="VShelf - Seu aplicativo de gerenciamento de títulos">
+
+    <script type="text/javascript">
+        const redirect = sessionStorage.getItem("redirect");
+        if (redirect && redirect !== "/" && redirect !== "/index.html") {
+            sessionStorage.removeItem("redirect");
+            window.history.replaceState(null, "", redirect);
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="window">
+        <h1>Encerrado</h1>
+        <p>
+            O VShelf foi encerrado. Agradecemos a todos que fizeram parte dessa jornada conosco.
+        </p>
+
+        <hr>
+
+        <h2>O que aconteceu?</h2>
+        <p>
+            Após anos de desenvolvimento e dedicação, decidi encerrar o VShelf. Para focar em outros projetos e
+            desafios, senti que era o momento certo para seguir em frente.
+        </p>
+
+        <hr>
+
+        <p>&copy; 2025 - 2026 VShelf</p>
+    </div>
+</body>
+
+</html>
